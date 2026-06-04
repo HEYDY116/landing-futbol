@@ -1,0 +1,26 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+}
+
+:root {
+    --primary: #1a5f3a;
+    --secondary: #ffcc00;
+    --dark: #222;
+    --light: #fff;
+}
+
+/* ========== PERSONA 1: ESTILOS HEADER/HERO ========== */
+
+
+/* ========== PERSONA 2: ESTILOS JUGADORES ========== */
+
+
+/* ========== PERSONA 3: ESTILOS PARTIDOS/FOOTER ========== */
