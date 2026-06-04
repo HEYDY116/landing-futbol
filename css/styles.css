@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -23,6 +23,157 @@ body {
 
 /* ========== PERSONA 2: ESTILOS JUGADORES ========== */
 
+ 
+#jugadores {
+  background-color: #0a3d1f;
+  padding: 60px 20px;
+  font-family: 'Barlow', sans-serif;
+}
+ 
+.jug-titulo {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 48px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 4px;
+  margin: 0 0 8px 0;
+}
+ 
+.jug-subtitulo {
+  text-align: center;
+  color: #7ed957;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 0 48px 0;
+}
+ 
+.jug-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+ 
+.jug-tarjeta {
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+ 
+.jug-tarjeta:hover {
+  transform: translateY(-6px);
+}
+ 
+.jug-foto {
+  width: 100%;
+  height: 160px;
+  background: linear-gradient(135deg, #1a6b35, #2d9e52);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+ 
+.jug-numero {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #7ed957;
+  color: #0a3d1f;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 22px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+ 
+.jug-avatar {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 52px;
+  color: rgba(255, 255, 255, 0.2);
+  letter-spacing: 2px;
+}
+ 
+.jug-info {
+  padding: 14px 16px 16px;
+}
+ 
+.jug-nombre {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  color: #0a3d1f;
+  letter-spacing: 1px;
+  margin: 0 0 4px 0;
+}
+ 
+.jug-posicion {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #666666;
+  margin: 0 0 12px 0;
+}
+ 
+.jug-stats {
+  display: flex;
+  gap: 12px;
+}
+ 
+.jug-stat {
+  text-align: center;
+}
+ 
+.jug-stat-val {
+  display: block;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  color: #1a6b35;
+}
+ 
+.jug-stat-label {
+  font-size: 10px;
+  color: #999999;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+ 
+.jug-footer {
+  background-color: #0a3d1f;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+.jug-pais {
+  font-size: 11px;
+  color: #7ed957;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+ 
+.jug-bandera {
+  font-size: 16px;
+}
+ 
+/* Responsive: 2 columnas en móvil */
+@media (max-width: 480px) {
+  .jug-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+ 
+  .jug-titulo {
+    font-size: 36px;
+  }
+}
 
 /* ========== PERSONA 3: ESTILOS PARTIDOS/FOOTER ========== */
 
