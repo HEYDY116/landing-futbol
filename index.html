@@ -9,7 +9,6 @@
 <body>
 
     <!-- ========== PERSONA 1: HEADER + MENÚ + HERO ========== -->
-
     (0Shadow-sama0)
     <header>
     <div class="logo">⚽ FutbolFC</div>
@@ -31,6 +30,10 @@
     </div>
 </section>
     
+
+    <!-- ========== PERSONA 4: ESTADÍSTICAS / TABLA ========== -->
+    (juan pablo padilla)
+
 
     <!-- ========== PERSONA 2: SECCIÓN JUGADORES ========== -->
     
@@ -212,9 +215,108 @@
     </section>
 
     <!-- ========== PERSONA 3: SECCIÓN PARTIDOS + FOOTER ========== -->
+    <!-- Sección de Partidos -->
+    <section class="matches-section" id="partidos">
+        <div class="container">
+            <h2 class="section-title">Próximo Encuentro</h2>
+            
+            <!-- Tarjeta Partido Destacado con Contador -->
+            <div class="next-match-card">
+                <div class="match-teams">
+                    <div class="team team-home">
+                        <div class="team-logo">⚽</div>
+                        <h3>Fútbol Club</h3>
+                    </div>
+                    <div class="match-vs">VS</div>
+                    <div class="team team-away">
+                        <div class="team-logo">🏆</div>
+                        <h3>Real Deportivo</h3>
+                    </div>
+                </div>
+                
+                <div class="match-info">
+                    <p class="match-date">Sábado, 13 de Junio - 18:00 hrs</p>
+                    <p class="match-stadium">Estadio Metropolitano</p>
+                </div>
+                
+                <!-- Contador Regresivo -->
+                <div class="countdown-container">
+                    <p class="countdown-title">El partido comienza en:</p>
+                    <div id="countdown" class="countdown-timer">
+                        <div class="time-block">
+                            <span id="days" class="time-num">00</span>
+                            <span class="time-label">Días</span>
+                        </div>
+                        <div class="time-block">
+                            <span id="hours" class="time-num">00</span>
+                            <span class="time-label">Horas</span>
+                        </div>
+                        <div class="time-block">
+                            <span id="minutes" class="time-num">00</span>
+                            <span class="time-label">Min</span>
+                        </div>
+                        <div class="time-block">
+                            <span id="seconds" class="time-num">00</span>
+                            <span class="time-label">Seg</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    (juan pablo)
-    
+            <!-- Historial de Partidos Recientes -->
+            <h3 class="subsection-title">Resultados Recientes</h3>
+            <div class="recent-matches-grid">
+                <div class="recent-match-card">
+                    <span class="match-status-badge win">Victoria</span>
+                    <div class="recent-match-teams">
+                        <span>Fútbol Club</span>
+                        <span class="score">3 - 1</span>
+                        <span>Atlético Norte</span>
+                    </div>
+                    <span class="recent-match-date">28 de Mayo, 2026</span>
+                </div>
+                <div class="recent-match-card">
+                    <span class="match-status-badge draw">Empate</span>
+                    <div class="recent-match-teams">
+                        <span>Unión del Valle</span>
+                        <span class="score">2 - 2</span>
+                        <span>Fútbol Club</span>
+                    </div>
+                    <span class="recent-match-date">21 de Mayo, 2026</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer del Sitio -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2>Landing Fútbol</h2>
+                <p>El portal oficial de nuestro club de fútbol local. Sigue toda la campaña y apoya al equipo.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#estadisticas">Estadísticas</a></li>
+                    <li><a href="#jugadores">Plantel</a></li>
+                    <li><a href="#partidos">Partidos</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Redes Sociales</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">🔵 Facebook</a>
+                    <a href="#" class="social-icon">📸 Instagram</a>
+                    <a href="#" class="social-icon">🐦 X (Twitter)</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Landing Fútbol. Todos los derechos reservados. Creado por Juan Pablo (Persona 3).</p>
+        </div>
+    </footer>
 
     <script src="js/main.js"></script>
 </body>
