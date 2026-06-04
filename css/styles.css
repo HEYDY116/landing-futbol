@@ -135,6 +135,60 @@ header nav ul li a:hover {
 
 /* ========== PERSONA 4: ESTADÍSTICAS ========== */
 
+#estadisticas {
+  background: linear-gradient(135deg, rgba(26,95,58,0.95), rgba(44,125,68,0.95));
+  padding: 50px 20px;
+  color: #ffffff;
+}
+
+.estad-titulo {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 42px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 3px;
+  margin-bottom: 24px;
+}
+
+.estad-tabla-wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  overflow-x: auto;
+  padding: 0 10px;
+}
+
+.estad-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  color: #111111;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+.estad-table th,
+.estad-table td {
+  padding: 16px 14px;
+  border: 1px solid #dde3e8;
+  text-align: left;
+}
+
+.estad-table th {
+  background: #1a5f3a;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+}
+
+.estad-table tbody tr:nth-child(odd) {
+  background: #f9fbfd;
+}
+
+.estad-row-persona4 {
+  background: rgba(126, 217, 87, 0.18);
+  font-weight: 700;
+}
+
 /* ========== PERSONA 2: ESTILOS JUGADORES ========== */
 
  
